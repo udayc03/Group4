@@ -57,15 +57,15 @@ public class VerifyFacebookLogin {
 	        loginpage.clicklogin();  
 	}
 	
-	@Test
-	public void verifyTaskTab() throws InterruptedException
-	{
-		loginpage.clicklogin();  
-		 String url = driver.getCurrentUrl();
-		 String title = driver.getTitle();
-	        Assert.assertEquals("https://www.facebook.com/login/",url);
-	        Assert.assertEquals("Facebook", title);     
-	}
+//	@Test
+//	public void verifyTaskTab() throws InterruptedException
+//	{
+//		loginpage.clicklogin();  
+//		 String url = driver.getCurrentUrl();
+//		 String title = driver.getTitle();
+//	        Assert.assertEquals("https://www.facebook.com/login/",url);
+//	        Assert.assertEquals("Facebook", title);     
+//	}
 //	@Test
 //	public void verifytaskinvalid()
 //	{
